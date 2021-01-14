@@ -1,0 +1,19 @@
+body{
+    font-family: 'Bebas Neue', cursive;;
+}
+.text-color{
+    background-color: #9DB63C;
+    color:white;
+    font-size: 1em;
+}
+.penguin-title{
+    color:#FABE4C;
+    font-size: 50px;
+}
+.penguin-another-title{
+    font-size: 50px;
+    color:#363958;
+}
+.header-background{
+    background-color: #FFFBF0;
+}

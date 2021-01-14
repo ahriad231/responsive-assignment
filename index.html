@@ -6,85 +6,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Penguin Fashion</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header class="container header-background">
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand pl-5" href="#">
-          <img src="images/website icon.png" class="img-fluid w-25" alt="">
+          <img src="images/website icon.png" class="img-fluid w-50" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
+          <div class="navbar-nav ms-auto">
             <a class="nav-link active pr-5" aria-current="page" href="#">Home</a>
-            <a class="nav-link pr-5" href="#">Features</a>
-            <a class="nav-link pr-5" href="#">Pricing</a>
-            <a class="nav-link pr-5" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#Product">Product</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Contact Us</a>
           </div>
         </div>
       </div>
     </nav>
-    
-      <div class="row mt-5">
-        <div class="col-md-7">
-          <h1 class="fw-bold">Be the Penguins of Winter</h1>
-          <h1 class="fw-bold">OF WINTER</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry.</p>
-          <button class="btn btn-warning">BUY NOW</button>
-        </div>
-        <div class="col-md-5">
-          <img src="images/profile.png" class="img-fluid w-75" alt="">
-        </div>
+
+    <div class="row mt-5">
+      <div class="col-md-7">
+        <h1 class="fw-bold penguin-title">Be the Penguins</h1>
+        <h1 class="fw-bold penguin-another-title">OF WINTER</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry.</p>
+          <button class="btn btn-warning text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1 mr-1" alt=""> BUY NOW</button>
       </div>
+      <div class="col-md-5">
+        <img src="images/profile.png" class="img-fluid w-75" alt="">
+      </div>
+    </div>
   </header>
   <!-- header section end  -->
   <main>
-    <section class="container mt-5">
-      <h1>WoMan Jacket</h1>
+    <section id="Product" class="container mt-5">
+      <h1 class="woman-section-title">WoMan Jacket</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/yellow.png" class="card-img-top" alt="...">
+            <img src="images/woman-clothes/yellow.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Yellow Coat Jacket</h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry.</p>
             </div>
             <div class="card-footer">
-            <button class="btn btn-warning">BUY NOW</button>
+              <div>
+                <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+                <h2>$333</h2>
+              </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/ladies.png" class="card-img-top" alt="...">
+            <img src="images/woman-clothes/ladies.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ladies Jacket </h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry</p>
             </div>
             <div class="card-footer">
-              <button class="btn btn-warning">BUY NOW</button>
+              <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+              <h2>$333</h2>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/image 15.png" class="card-img-top" alt="...">
+            <img src="images/woman-clothes/image 15.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Woman Leather Jacket</h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry.</p>
             </div>
             <div class="card-footer">
-              <button class="btn btn-warning">BUY NOW</button>
+              <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+              <h2>$333</h2>
             </div>
           </div>
         </div>
@@ -92,51 +102,103 @@
     </section>
     <!-- woman cloth section end  -->
     <section class="container mt-5">
-      <h1>WoMan Jacket</h1>
+      <h1>Man Jacket</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/yellow.png" class="card-img-top" alt="...">
+            <img src="images/man-clothes/image 11.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Yellow Coat Jacket</h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry.</p>
             </div>
             <div class="card-footer">
-            <button class="btn btn-warning">BUY NOW</button>
+              <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+             
+              <h2>$333</h2>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/ladies.png" class="card-img-top" alt="...">
+            <img src="images/man-clothes/vippng 1.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ladies Jacket </h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry</p>
             </div>
             <div class="card-footer">
-              <button class="btn btn-warning">BUY NOW</button>
+              <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+              <h2>$333</h2>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="images/woman-clothes/image 15.png" class="card-img-top" alt="...">
+            <img src="images/man-clothes/toppng 1.png" class="card-img-top shadow-sm" alt="...">
             <div class="card-body">
               <h5 class="card-title">Woman Leather Jacket</h5>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the 
+              <p class="card-text">Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry.</p>
             </div>
             <div class="card-footer">
-              <button class="btn btn-warning">BUY NOW</button>
+              <button class="btn btn-warning float-end text-color"> <img src="images/Logo, Icon/shopping-cart 1.png" class="img-fluid w-25 pt-1" alt=""> BUY NOW</button>
+              <h2>$333</h2>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- man cloth secton end  -->
+    <div class="container mt-5">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center align-items-center shadow-sm">
+            <div><img src="images/Logo, Icon/image 12.png" class="img-fluid w-50" alt=""></div>
+
+            <div>
+              <h4>Find the Perfect Fit</h4>
+              <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center shadow-sm">
+            <div><img src="images/Logo, Icon/image 13.png" class="img-fluid w-50" alt=""></div>
+
+            <div>
+              <h4>Find the Perfect Fit</h4>
+              <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center shadow-sm">
+            <div><img src="images/Logo, Icon/image 14.png" class="img-fluid w-50" alt=""></div>
+
+            <div>
+              <h4>Find the Perfect Fit</h4>
+              <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <img src="images/Logo, Icon/XMLID 1.png" class="img-fluid w-100" alt="">
+        </div>
+
+      </div>
+    </div>
+    <section id="about-us mt-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-6">
+         
   </main>
+  <footer class="text-center mt-5">
+    <small>@2025. All rights reserved by Penguin Fashion</small>
+</footer>
 
 
 
